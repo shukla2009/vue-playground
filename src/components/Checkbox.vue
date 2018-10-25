@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-for='event in hooks.events' :key='event.id'>
-      <input v-model='event.selected' type='checkbox' />
+    <div v-for="event in hooks.events">
+      <input v-model="event.selected" type="checkbox" />
       <label>{{event.selected}}</label>
     </div>
     <button @click="save()">Save Me</button>
