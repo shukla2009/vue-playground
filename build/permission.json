@@ -1,0 +1,92 @@
+{
+  "video": {
+    "role": ["admin", "creative", "media", "analyst"],
+    "expiry": "2099-12-31 11:59:59",
+
+    "read": {
+      "expiry": "2099-12-31 11:59:59"
+    },
+    "modify": {
+      "role": ["admin", "creative"],
+      "expiry": "2099-12-31 11:59:59"
+    },
+    "create": {
+      "role": ["admin", "creative"],
+      "quota": "5/day",
+      "expiry": "2099-12-31 11:59:59"
+    }
+  },
+  "tag": {
+    "role": ["admin", "creative"],
+    "expiry": "2099-12-31 11:59:59",
+    "read": {
+      "expiry": "2099-12-31 11:59:59"
+    },
+    "modify": {
+      "expiry": "2099-12-31 11:59:59"
+    },
+    "create": {
+      "quota": "5/month",
+      "expiry": "2099-12-31 11:59:59"
+    },
+    "commerce":{
+        "role": ["admin", "creative"],
+        "expiry": "2099-12-31 11:59:59",
+        "read": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "modify": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "create": {
+          "quota": "5/month",
+          "expiry": "2099-12-31 11:59:59"
+        }
+      },
+      "booking":{
+        "role": ["admin", "creative"],
+        "expiry": "2099-12-31 11:59:59",
+        "read": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "modify": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "create": {
+          "quota": "5/month",
+          "expiry": "2099-12-31 11:59:59"
+        }
+      },
+      "participation":{
+        "role": ["admin", "creative"],
+        "expiry": "2099-12-31 11:59:59",
+        "read": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "modify": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "create": {
+          "quota": "5/month",
+          "expiry": "2099-12-31 11:59:59"
+        }
+      },
+      "storeLocator":{
+        "role": ["admin", "creative"],
+        "expiry": "2099-12-31 11:59:59",
+        "read": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "modify": {
+          "expiry": "2099-12-31 11:59:59"
+        },
+        "create": {
+          "quota": "5/month",
+          "expiry": "2099-12-31 11:59:59"
+        }
+      },
+      "offers":{
+          
+      }
+  }
+}
