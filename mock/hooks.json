@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "events": [
+      {
+        "name": "Event1",
+        "selected": true
+      },
+      {
+        "name": "Event2",
+        "selected": true
+      },
+      {
+        "name": "Event3",
+        "selected": true
+      }
+    ]
+  }
+}
